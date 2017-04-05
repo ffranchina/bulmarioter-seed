@@ -1,0 +1,4 @@
+dist
+node_modules
+**/main.css
+**/riot_tags.js
