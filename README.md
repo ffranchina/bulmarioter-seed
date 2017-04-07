@@ -1,7 +1,9 @@
 # BulmaRioter-seed
 A simple boilerplate using [RiotJS] and [Bulma], libraries chosen for their lightness and tidiness.
+
+In order to keep the dependencies low, Makefile was choosen to compile everything.
+
 Useful to avoid writing the same boring part every time you start a new project.
-In order to keep the dependencies low, I've choose to use a Makefile to compile everything.
 
 |         | [RiotJS] | [Bulma] |
 | ------- | -------- | ------- |
@@ -11,9 +13,8 @@ In order to keep the dependencies low, I've choose to use a Makefile to compile 
 
 ### Dependencies
 The system requirements to have this boilerplate running are:
-  - NodeJS 
-  - npm
-  - sassc (SASS compiler using libsass)
+  - *NodeJS* + *npm*
+  - *sassc* (SASS compiler using [libsass](http://sass-lang.com/libsass))
   
 The advice is to use the lastest versions of each.
 
