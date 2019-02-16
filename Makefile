@@ -20,11 +20,11 @@ clean:
 all: clean dep app
 
 dep:
-	npm install riot@3.4.0
+	npm install riot@3.13.2
 	npm install riot-cli
 	npm install riot-route
 	npm install zepto
-	npm install bulma@0.3.2
+	npm install bulma@0.7.4
 	npm install font-awesome
 
 	mkdir $(DEST)

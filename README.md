@@ -5,9 +5,9 @@ In order to keep the dependencies low, Makefile was choosen to compile everythin
 
 Useful to avoid writing the same boring part every time you start a new project.
 
-|         | [RiotJS] | [Bulma] |
-| ------- | -------- | ------- |
-| Version | v.3.4.0  | v.0.3.2 |
+|         | [RiotJS]  | [Bulma] |
+| ------- | --------- | ------- |
+| Version | v.3.13.2  | v.0.7.4 |
 
 ---
 
