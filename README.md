@@ -18,6 +18,20 @@ The system requirements to have this boilerplate running are:
   
 The advice is to use the lastest versions of each.
 
+### Getting started
+Just clone this repo with
+```bash
+git clone https://github.com/ffranchina/bulmarioter-seed.git
+```
+
+and then type
+```bash
+make all
+make run
+```
+
+Finally you can access the demo at [localhost](http://localhost:8000).
+
 ### Why Makefile?
 Well... I'm not a fan of the large stack often used in the frontend world. I prefer less dipendencies, less config files, less new pointless abstraction layers. 
 
