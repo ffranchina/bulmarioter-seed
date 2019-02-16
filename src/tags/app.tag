@@ -2,35 +2,39 @@
 
     <section class="hero is-light { 'is-fullheight is-bold': $app._page == 'home' }">
         <div class="hero-head">
-            <header class="nav">
-                <div class="container">
-                    <div class="nav-left">
-                        <a class="nav-item">
-                            <span class="title t-5">#Template</span>
-                        </a>
-                    </div>
 
-                    <span class="nav-toggle" onclick="{ togglemenu }">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                    <div class="nav-right nav-menu is-medium">
-                        <a class="nav-item { 'is-active': $app._page == 'home' }" href="#/home">
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <span class="title">#Template</span>
+                    </a>
+
+                    <a class="navbar-burger burger" onclick="{ togglemenu }">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item { 'is-active': $app._page == 'home' }" href="#/home">
                             Home
                         </a>
-                        <a class="nav-item { 'is-active': $app._page == 'page1' }" href="#/page1">
+                        <a class="navbar-item { 'is-active': $app._page == 'page1' }" href="#/page1">
                             Page 1
                         </a>
-                        <a class="nav-item { 'is-active': $app._page == 'page2' }" href="#/page2">
+                        <a class="navbar-item { 'is-active': $app._page == 'page2' }" href="#/page2">
                             Page 2
                         </a>
-                        <a class="nav-item { 'is-active': $app._page == 'about' }" href="#/about">
+                        <a class="navbar-item { 'is-active': $app._page == 'about' }" href="#/about">
                             About
                         </a>
                     </div>
+
                 </div>
-            </header>
+            </nav>
+
         </div>
 
         <div class="hero-body" hide="{ $app._page != 'home' }">
@@ -67,7 +71,8 @@
         route.start(true)
 
         this.togglemenu = function() {
-            $('.nav-menu').toggleClass('is-active')
+            $('.navbar-burger').toggleClass('is-active')
+            $('.navbar-menu').toggleClass('is-active')
         }
     </script>
 </app>
